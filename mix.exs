@@ -1,7 +1,7 @@
 defmodule PredicateSigil.Mixfile do
   use Mix.Project
 
-  @version "2.2.4"
+  @version "0.1.0"
   @repo_url "https://github.com/meyercm/predicate_sigil"
 
   def project do
