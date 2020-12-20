@@ -1,7 +1,7 @@
 defmodule PredicateSigil.Mixfile do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.2.0"
   @repo_url "https://github.com/meyercm/predicate_sigil"
 
   def project do
@@ -27,8 +27,8 @@ defmodule PredicateSigil.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:ex_doc, ">= 0.0.0", only: :dev},
-      {:earmark, ">= 0.0.0", only: :dev},
+      {:ex_doc, ">= 0.0.0"},
+      {:earmark, ">= 0.0.0"},
     ]
   end
 
